@@ -1,0 +1,85 @@
+
+
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  flex-direction: column;
+}
+
+.water-background{
+  background-color: #4B494F;
+}
+
+.game-heading{
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.square-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.move-detection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+
+}
+.left, .right{
+  height: 30px;
+  width: 120px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top: 7px;
+  background-color: #4B494F;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.end-state{
+  font-size: 30px;
+  text-align: center;
+}
+
+.play-online{
+  font-weight: 700;
+  background-color: teal;
+  border: none;
+  color: white;
+  font-size: 60px;
+  margin-top: 45vh;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.waiting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 44px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.current-move-cross{
+  background-color: #3fa7f0 !important;
+}
+
+.current-move-circle{
+  background-color: #dd7f9f !important;
+}
